@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    background-image: url('Bg-imageForWheather.avif'); /* Replace with your background image */
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(226, 224, 90, 0.969);
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    color: #0b000a; /* Text color for better contrast on the background image */
+}
+/* Created by admin - Lucky Mishra */
+/* Header styles */
+h1 {
+    font-size: 24px;
+    color: #000400; /* White text color for headings */
+    margin-bottom: 20px;
+}
+
+/* Search styles */
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Unit selector styles */
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333; /* Text color for selectors */
+    background-color: #fff; /* Background color for selectors */
+}
+
+/* Weather info styles */
+.weather-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-info p {
+    font-size: 18px;
+    color: #e01c1c; /* White text color for information */
+    margin: 8px 0;
+}
+
+/* Different text colors for specific elements */
+.location {
+    color: #007BFF; /* Blue for location */
+}
+
+.wind {
+    color: #ff5733; /* Red for wind */
+}
+
+/* Error message styles */
+.error {
+    color: #ff0000;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Hidden class to hide elements */
+.hidden {
+    display: none;
+}
+
+/* Created by admin - Lucky Mishra */
